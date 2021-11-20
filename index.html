@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Gym Website</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TBF Gym</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</head>
+<body>
+  <section id="hero">
+    <header>
+      <div class="container">
+        <div id="header-logo-mobile" class="top-gym-logo">
+          <a href="#">TBF<br/>Gym</a>
+        </div>
+
+        <nav>
+          <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#features">About Us</a></li>
+            <li><a href="#schedule-services">Classes</a></li>
+            <li id="header-logo" class="top-gym-logo">
+              <a href="#">TBF<br/>Gym</a>
+            </li>
+            <li><a href="#trainers">Instructors</a></li>
+            <li><a href="https://grapplinginsider.com/" target="_blank">News</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Contact</a></li>
+            <li>
+              <button id="search"><span class="fa fa-search"></span></button>
+            </li>
+          </ul>
+        </nav>
+
+        <button id="hamburger-menu">
+          <span class="strip"></span>
+          <span class="strip"></span>
+          <span class="strip"></span>
+        </button>
+      </div>
+    </header>
+
+    <div id="hero-slider">
+      <div class="hero-slide-item" style="background-image:url('https://www.outsideonline.com/wp-content/uploads/2018/12/27/david-goggins-log-lift_h.jpg');">
+        <div class="hero-slider-marketing">
+          <a href="https://www.youtube.com/watch?v=S2eso4vLPms" target="_blank" class="youtube-button"><span class="fa fa-play"></span></a>
+          <h2>Not Your Average Gym</h2>
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="hero-slide-item" style="background-image:url('https://wallpaperaccess.com/full/1605374.jpg');">
+        <div class="hero-slider-marketing">
+          <a href="https://www.youtube.com/watch?v=t03TqJ7-Oiw" target="_blank" class="youtube-button"><span class="fa fa-play"></span></a>
+          <h2>Not For The Faint Of Heart</h2>
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="hero-slide-item" style="background-image:url('https://i.ytimg.com/vi/WR6yN4icjGk/maxresdefault.jpg');">
+        <div class="hero-slider-marketing">
+          <a href="https://www.youtube.com/watch?v=lO3D4PvYlx4" target="_blank" class="youtube-button"><span class="fa fa-play"></span></a>
+          <h2>A Trial By Fire</h2>
+          <button>More Info</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="flex container">
+      <div class="box">
+        <img src="http://images.huffingtonpost.com/2015-12-18-1450413872-8451318-IMG_0314.jpg" alt="Surf Torture" />
+        <div class="feature-info-container">
+          <div class="icon">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/icon-1.png" alt="Star Trophy Icon" />
+          </div>
+          <h4>Ideal Setting</h4>
+          <p>Whether you are looking to train in the extreme cold or heat, TBF Gym has options to personalize your training environment.</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://www.tactical-life.com/wp-content/uploads/sites/8/2020/04/seal-buds-instructor-patstone-reup.jpg" alt="Instructor Patstones and Shoemaker" />
+        <div class="feature-info-container">
+          <div class="icon">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/icon-2.png" alt="Dumbbell Icon" />
+          </div>
+          <h4>Top Trainers</h4>
+          <p>TBF Trainers have all proven themselves within their respective discipline, and they aren't going to let you off the hook one bit.</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://fitfoodiefinds.com/wp-content/uploads/2021/02/Berry-Protein-Smoothie-07sq.jpg" alt="Smoothie" />
+        <div class="feature-info-container">
+          <div class="icon">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/icon-3.png" alt="Smoothie Icon" />
+          </div>
+          <h4>Meal Plans</h4>
+          <p>Receive guidance for maintaining a healthy diet that provides the macros to achieve your fitness goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h3>Services</h3>
+    <div class="flex container">
+      <div class="box">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-1.png" alt="Basketball Icon" />
+        <h4>Team Sports</h4>
+        <p>Facilities provided for team sports and activities to build comraderie with other members.</p>
+      </div>
+
+      <div class="box">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-2.png" alt="Bench Press Icon" />
+        <h4>Free Lifting</h4>
+        <p>Plenty of free weights included for strength gains without having to wait 30 minutes for a bench.</p>
+      </div>
+
+      <div class="box">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-3.png" alt="Stopwatch Icon" />
+        <h4>Classes</h4>
+        <p>Daily martial arts classes led by our top instructors. Includes Jiu Jitsu, Boxing, Kickboxing, and Muy Thai.</p>
+      </div>
+
+      <div class="box">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/services-icon-4.png" alt="Mp3 Player Icon" />
+        <h4>Cardio</h4>
+        <p>Plenty of options to improve your endurance and mental toughness. State of the art cardio equipment not found in other gyms.</p>
+      </div>
+    </div>
+     <a href="https://www.youtube.com/watch?v=5Q17JgbPNH8" target="_blank">
+    <button>See All Services</button></a>
+  </section>
+
+  <section id="trainers">
+    <h5>The Best</h5>
+    <h3>Trainers</h3>
+    <div class="container">
+      <div id="trainers-slider">
+        <div class="trainer-slider-item">
+          <img src="https://audiobookexplorers.com/wp-content/uploads/2019/08/davidgoggins.jpeg" alt="David Goggins" />
+          <h4>David Goggins</h4>
+          <p>Personal Trainer</p>
+        </div>
+
+        <div class="trainer-slider-item">
+          <img src="data:image/jpeg;base64,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" alt="Patstones Trainer" />
+          <h4>Terry Patstones</h4>
+          <p>Personal Trainer</p>
+        </div>
+
+        <div class="trainer-slider-item">
+          <img src="https://gonintendo.com/uploads/file_upload/upload/79463/ss_1.jpg" alt="Banjo" />
+          <h4>Banjo</h4>
+          <p>Personal Trainer</p>
+        </div>
+
+        <div class="trainer-slider-item">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQECa09FGdUcYA/profile-displayphoto-shrink_800_800/0/1611236066082?e=1642636800&v=beta&t=9zMdlg8TLBcvgNdLG2HrvQraWMy7eICsL64G232eYKE" alt="Chad Champion Personal Trainer" />
+          <h4>Chad Champion</h4>
+          <p>Personal Trainer</p>
+        </div>
+
+        <div class="trainer-slider-item">
+          <img src="https://grapplinginsider.com/wp-content/uploads/2021/03/Andrew-Wiltse.jpg" alt="Andrew Wiltse Personal Trainer" />
+          <h4>Andrew Wiltse</h4>
+          <p>Jiu Jitsu Instructor</p>
+        </div>
+
+        <div class="trainer-slider-item">
+          <img src="https://empiresportsmedia.com/wp-content/uploads/2020/07/USATSI_14296895-1.jpg" alt="Justin Personal Trainer" />
+          <h4>Justin Gaethje</h4>
+          <p>MMA Instructor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="schedule-services">
+    <div class="flex container">
+      <div class="upcoming-classes-box">
+        <strong>NEXT</strong>
+        <h4>Upcoming Classes</h4>
+        <table>
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>SEAL Fitness</td>
+            <td>11:00 - 12:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>Cardio</td>
+            <td>12:00 - 1:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>Muy Thai</td>
+            <td>1:00 - 2:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>Kickboxing</td>
+            <td>2:00 - 3:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>Jiu Jitsu</td>
+            <td>3:00 - 4:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="https://onclickwebdesign.com/wp-content/uploads/stopwatch.png" alt="Stopwatch" /></td>
+            <td>MMA</td>
+            <td>4:00 - 5:00</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="membership-cards-box">
+        <div class="inner-container">                             <h6>Membership Deals</h6>
+          <h2>25% <span>Discount</span></h2>
+        </div>
+      </div>
+
+      <div class="personal-trainer-box">
+        <strong>BECOME A</strong>
+        <h4>Personal Trainer</h4>
+        <p>If you think you have proven what it takes to achieve success through a trial by fire, feel free to take the test to prove yourself as a personal trainer.</p>
+        <button>Sign Up Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div id="footer-logo" class="top-gym-logo">
+        <a href="#">TBF<br/>Gym</a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">About Us</a></li>
+          <li><a href="#schedule-services">Classes</a></li>
+          <li><a href="#trainers">Instructors</a></li>
+          <li><a href="https://grapplinginsider.com/" target="_blank">News</a></li>
+          <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="mailing-list">
+        <input type="text" placeholder="YOUR EMAIL" />
+        <button>SIGN UP</button>
+      </div>
+
+      <ul class="social-icons">
+        <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+        <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+      </ul>
+
+      <img src="https://onclickwebdesign.com/wp-content/uploads/footer-icon.png" class="bicep" alt="Bicep flex icon" />
+
+      <small>
+        Copyright &copy;2021 All rights reserved | This template is made with No Excuses</a>
+      </small>
+    </div>
+  </footer>
+
+  <div id="search-container">
+    <span id="search-container-hide" class="fa fa-times"></span>
+    <h3>Search</h3>
+    <div class="search-container-input">
+      <input type="text" name="search" placeholder="Search this site" />
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div id="video-frame">
+    <span id="video-frame-hide" class="fa fa-times"></span>
+    <div class="video-frame-container">
+      <div class="video-frame-scaler">
+          <iframe id="embed-video" src="https://www.youtube.com/embed/WCBEammPsu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // document ready function
+    $(function () {
+      // store jquery references to elements in const variables
+      const headerNav = $('header nav');
+      const hamburgerMenu = $('#hamburger-menu');
+      const search = $('#search');
+      const searchContainerHide = $('#search-container-hide');
+      const searchContainer = $('#search-container');
+      const youtubeButton = $('.youtube-button');
+      const videoFrame = $('#video-frame');
+      const videoFrameHide = $('#video-frame-hide');
+      const embedVideo = $('#embed-video');
+
+      // initialize hero slider
+      $('#hero-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        fade: true,
+        speed: 1000,
+        cssEase: 'linear'
+      });
+
+      $('#trainers-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+        nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 530,
+            settings: {
+              slidesToShow: 1,
+              arrows: false
+            }
+          }
+        ]
+      });
+
+      // initialize event handling
+      hamburgerMenu.on('click', () => {
+        headerNav.toggle();
+      });
+
+      search.on('click', () => {
+        searchContainer.css({
+          'opacity': '1',
+          'visibility': 'visible',
+          'z-index': '100'
+        });
+      });
+
+      searchContainerHide.on('click', () => {
+        searchContainer.css({
+          'opacity': '0',
+          'visibility': 'hidden',
+          'z-index': '0'
+        });
+      });
+
+      youtubeButton.on('click', () => {
+        videoFrame.css({
+          'opacity': '1',
+          'visibility': 'visible',
+          'z-index': '100'
+        });
+      });
+
+      videoFrameHide.on('click', () => {
+        videoFrame.css({
+          'opacity': '0',
+          'visibility': 'hidden',
+          'z-index': '0'
+        });
+        
+        embedVideo.prop('src', embedVideo.prop('src'));
+      });
+    });
+  </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
